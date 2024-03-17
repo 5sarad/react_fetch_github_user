@@ -12,6 +12,7 @@ function GithubUser({name, location, avatar}) {
   )
 }
 
+
 function App() {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
